@@ -1,0 +1,54 @@
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<style>
+			*{
+			margin:0;
+			padding:0;
+			}
+body{
+	display: grid;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+h1{
+	font-size: 100px;
+}
+.text{
+	font-variant: small-caps;
+	font-size: 27px;
+	color:red;
+}
+.color{
+	width:100%;
+	height:320px;
+	background-color: pink;
+	border-radius: 100%;
+	position:absolute;
+	z-index: 1;
+	transform: translate(0px,-200px);
+	filter: blur(20px);
+}
+section{
+	z-index:2;
+}
+		</style>
+	</head>
+<body>
+	<div class="color"></div>
+	<section>
+	<h1>404</h1> 
+	<div class="text">page not found!!</div>
+	</section>
+	<section>
+	<p>The page you are looking for is not available.<br>
+	It may be under construction or removed by the site owner.<br>
+	</p>
+	</section>
+<script>
+
+	
+</script>
+</body>
+</html>
