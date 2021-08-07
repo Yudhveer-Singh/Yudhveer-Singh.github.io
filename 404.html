@@ -11,6 +11,7 @@ body{
 	justify-content:center;
 	align-items:center;
 	text-align:center;
+	background-color: moccasin;
 }
 h1{
 	font-size: 100px;
@@ -20,28 +21,58 @@ h1{
 	font-size: 27px;
 	color:red;
 }
-.color{
-	width:100%;
-	height:320px;
-	background-color: pink;
+.color1{
+	width:200px;
+	height:200px;
+	background: linear-gradient(chocolate , brown);
 	border-radius: 100%;
 	position:absolute;
 	z-index: 1;
-	transform: translate(0px,-200px);
-	filter: blur(20px);
+	transform: translate(-40px,0px);
+	filter: blur(0px);
+}
+.color2{
+	width:300px;
+	height:300px;
+	background: linear-gradient(darkgreen, limegreen);
+	border-radius: 100%;
+	position:absolute;
+	z-index: 1;
+	transform: translate(100px,200px);
+	filter: blur(0px);
 }
 section{
 	z-index:2;
 }
+.box2{
+	width:150px;
+	background-color: rgba(255,255,255,0.5);
+	border: 2px solid rgba(255,255,255,0.8);
+	border-radius: 10px;
+	padding: 10px;
+	transform: translate(100px, 50px);
+}
+.box1{
+	width:180px;
+	background-color: rgba(255,255,255,0.5);
+	border: 2px solid rgba(255,255,255,0.8);
+	border-radius: 10px;
+	padding: 10px;
+	transform: translate(-50px,100px);
+	
+}
+
 		</style>
 	</head>
 <body>
-	<div class="color"></div>
-	<section>
+	<div class="color1"></div>
+	<div class="color2"></div>
+	
+	<section class="box1">
 	<h1>404</h1> 
 	<div class="text">page not found!!</div>
 	</section>
-	<section>
+	<section class ="box2">
 	<p>The page you are looking for is not available.<br>
 	It may be under construction or removed by the site owner.<br>
 	</p>
