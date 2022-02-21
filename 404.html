@@ -1,87 +1,28 @@
-<html>
-	<head>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<style>
-			*{
-			margin:0;
-			padding:0;
-			}
-body{
-	display: grid;
-	justify-content:center;
-	align-items:center;
-	text-align:center;
-	background-color: moccasin;
-}
-h1{
-	font-size: 100px;
-}
-.text{
-	font-variant: small-caps;
-	font-size: 27px;
-	color:red;
-}
-.color1{
-	width:200px;
-	height:200px;
-	background: linear-gradient(chocolate , brown);
-	border-radius: 100%;
-	position:absolute;
-	z-index: 1;
-	transform: translate(-40px,0px);
-	filter: blur(0px);
-}
-.color2{
-	width:300px;
-	height:300px;
-	background: linear-gradient(darkgreen, limegreen);
-	border-radius: 100%;
-	position:absolute;
-	z-index: 1;
-	transform: translate(100px,200px);
-	filter: blur(0px);
-}
-section{
-	z-index:2;
-}
-.box2{
-	width:150px;
-	background-color: rgba(255,255,255,0.2);
-	border: 2px solid rgba(255,255,255,0.5);
-	border-radius: 10px;
-	padding: 10px;
-	transform: translate(100px, 50px);
-	backdrop-filter: blur(4px);
-}
-.box1{
-	width:180px;
-	background-color: rgba(255,255,255,0.2);
-	border: 2px solid rgba(255,255,255,0.5);
-	border-radius: 10px;
-	padding: 10px;
-	transform: translate(-50px,100px);
-	backdrop-filter: blur(4px);
-	
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		</style>
-	</head>
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="404.css">
+</head>
+
 <body>
-	<div class="color1"></div>
-	<div class="color2"></div>
-	
-	<section class="box1">
-	<h1>404</h1> 
-	<div class="text">page not found!!</div>
-	</section>
-	<section class ="box2">
-	<p>The page you are looking for is not available.<br>
-	It may be under construction or removed by the site owner.<br>
-	</p>
-	</section>
-<script>
-
-	
-</script>
+  <div class="h1">404</div>
+  <div class="text">Page Not Found</div>
+  <div id="discription">
+     The webpage at <br /><a id="fullurl"></a><br /> that you are looking for is not found.
+     Check if the URL of the site is correct or not.
+     It might also not be created yet. Or, the site is removed by the owner either temporarily or permanently. It is suggested to reload this site later. If this problem remains, you can contact the owner at <a href="mailto:ys.batth62@gmail.com">ys.batth62@gmail.com</a>
+  </div>
+  <!-- Project -->
+  <script src="404.js"></script>
 </body>
 </html>

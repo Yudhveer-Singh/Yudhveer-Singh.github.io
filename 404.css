@@ -1,0 +1,25 @@
+body{
+   margin: 20px 0 0 0;
+   font-family: verdana;
+}
+.h1{
+   font-size: 96px;
+   text-align: center;
+}
+.text{
+   font-size: 20px;
+   text-align: center;
+}
+#discription{
+   margin: 0 auto;
+   text-align: justify;
+   padding:40px;
+   max-width: 400px;
+}
+a,
+a:visited,
+a:active{
+   color: #0ABCFF;
+   text-decoration: none;
+   
+}
