@@ -1,20 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto+Mono:ital,wght@1,500&family=Work+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 body{
-   margin: 20px 0 0 0;
+   margin: 0 0 0 0;
    font-family: verdana;
 }
 .h1{
    font-size: 96px;
    text-align: center;
+   font-family: 'Lora', vardana;
 }
 .text{
    font-size: 20px;
    text-align: center;
+   font-family: 'lora', vardana;
 }
 #discription{
    margin: 0 auto;
    text-align: justify;
    padding:40px;
    max-width: 400px;
+   font-family: 'noto serif', vardana;
 }
 a,
 a:visited,
